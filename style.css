@@ -1,3 +1,25 @@
-body {
-    background-image: url('background.jpg')
+.main  {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken;
+}
+
+.content {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    padding: 70px;
+}
+
+.main h6 {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif
 }
