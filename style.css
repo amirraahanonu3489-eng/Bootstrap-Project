@@ -1,4 +1,4 @@
-.main  {
+.page  {
     background-image: url('background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,4 +22,30 @@
 .main h6 {
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif
+}
+
+.main h1 {
+    padding: 10px 20px;
+    font-size: 70px;
+}
+
+.main a {
+    text-decoration: none;
+    border: 1px solid #ccc;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: #7e3af2;
+}
+
+.main i {
+    color: white;
+    font-family: Century Gothic;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    background-color: white;
+    color: black;
+    gap: 30px;
 }
